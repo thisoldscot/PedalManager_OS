@@ -740,7 +740,7 @@ class PedalApp:
             lbl_icon.bind("<Button-1>", lambda e: open_url(url))
             lbl_text.bind("<Button-1>", lambda e: open_url(url))
 
-        add_link(links_frame, "WEB", "#333333", "fabemit.com", "https://fabemit.com")
+        add_link(links_frame, "WEB", "#333333", "thisoldscot.com", "https://thisoldscot.com")
         add_link(links_frame, "IG", "#E1306C", "Instagram (@fabemit)", "https://instagram.com/fabemitdesign")
         add_link(links_frame, "TT", "#000000", "TikTok (@fabemit)", "https://tiktok.com/@fabemit")
         add_link(links_frame, "YT", "#FF0000", "YouTube Channel", "https://youtube.com/@fabemit")
@@ -748,8 +748,8 @@ class PedalApp:
 
         footer = tk.Frame(tab, bg=self.CARD_BG)
         footer.pack(fill="x", pady=40)
-        tk.Label(footer, text=f"fabemit Pedal Manager v{APP_VERSION}", font=(self.FONT_FAMILY, 12, "bold"), bg=self.CARD_BG, fg=self.TEXT_COLOR).pack()
-        tk.Label(footer, text="© 2023 fabemit. All rights reserved.", font=(self.FONT_FAMILY, 9), bg=self.CARD_BG, fg="#888").pack()
+        tk.Label(footer, text=f"ThisOldScot Pedal Manager v{APP_VERSION}", font=(self.FONT_FAMILY, 12, "bold"), bg=self.CARD_BG, fg=self.TEXT_COLOR).pack()
+        tk.Label(footer, text="© 2023 ThisOldScot. All rights reserved.", font=(self.FONT_FAMILY, 9), bg=self.CARD_BG, fg="#888").pack()
         return tab
     
     def create_help_tab(self):
