@@ -4,7 +4,7 @@
 
 ## About the Project
 
-| ![Pedal Manager](https://github.com/thisoldscot/PedalManager_OS/blob/main/Images/fabOS-home.png) |
+| ![Pedal Manager](https://github.com/thisoldscot/PedalManager_OS/blob/main/Images/PedalManager_OS-home.png) |
 | :--------------------------------------------------------------------------------------------: |
 
 Pedal Manager is the desktop companion for the custom sim-racing pedal project. It
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### Usage
 
 ```bash
-python fabOS_Pedal_Manager.py
+python PedalManager_OS.py
 ```
 
 ---
@@ -49,9 +49,9 @@ python fabOS_Pedal_Manager.py
 
 This repository is organised as follows:
 
-- **`fabOS_Pedal_Manager.py`** — application entry point.
+- **`PedalManager_OS.py`** — application entry point.
 - **`pedal_settings.json`** — saved pedal configuration.
-- **`fab.ico` / `Sim_Pedals.png`** — application icon and image.
+- **`PedalManager_OS.ico` / `Sim_Pedals.png`** — application icon and image.
 - **`*.spec`** — PyInstaller build specs (build output is gitignored).
 
 Refer to the `CHANGELOG.md` for details about updates between versions.

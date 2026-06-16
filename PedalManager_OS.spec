@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['fabOS_Pedal_Manager.py'],
+    ['PedalManager_OS.py'],
     pathex=[],
     binaries=[],
     datas=[('Sim_Pedals.png', '.')],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='fabOS_Pedal_Manager',
+    name='PedalManager_OS',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['fab.ico'],
+    icon=['PedalManager_OS.ico'],
 )

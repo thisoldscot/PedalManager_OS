@@ -13,7 +13,7 @@ import logging
 
 # --- VERSION INFO ---
 APP_VERSION = "6.9"
-APP_TITLE = f"fabOS - Pedal Manager"
+APP_TITLE = "ThisOldScot Pedal Manager"
 
 # Configure basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
