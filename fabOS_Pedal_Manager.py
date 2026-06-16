@@ -741,9 +741,9 @@ class PedalApp:
             lbl_text.bind("<Button-1>", lambda e: open_url(url))
 
         add_link(links_frame, "WEB", "#333333", "thisoldscot.com", "https://thisoldscot.com")
-        add_link(links_frame, "IG", "#E1306C", "Instagram (@fabemit)", "https://instagram.com/fabemitdesign")
-        add_link(links_frame, "TT", "#000000", "TikTok (@fabemit)", "https://tiktok.com/@fabemit")
-        add_link(links_frame, "YT", "#FF0000", "YouTube Channel", "https://youtube.com/@fabemit")
+        add_link(links_frame, "IG", "#E1306C", "Instagram (@thisoldscot)", "https://www.instagram.com/thisoldscot")
+        add_link(links_frame, "TT", "#000000", "TikTok (@thisoldscot)", "https://www.tiktok.com/@thisoldscot")
+        add_link(links_frame, "YT", "#FF0000", "YouTube Channel", "https://www.youtube.com/@thisoldscot")
         add_link(links_frame, "GIT", "#6e5494", "GitHub Repository", "https://github.com/thisoldscot/fabPedals")
 
         footer = tk.Frame(tab, bg=self.CARD_BG)
