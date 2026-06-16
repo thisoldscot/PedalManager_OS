@@ -2,4 +2,4 @@ Run below from the source location in aterminal
 
 e.g. /desktop/Pedal Manager
 
-pyinstaller --noconsole --onefile --icon=fab.ico --add-data "Sim_Pedals.png;." fab_pedal_manager.py
+pyinstaller --noconsole --onefile --icon=fab.ico --add-data "Sim_Pedals.png;." fabOS_Pedal_Manager.py
