@@ -4,7 +4,7 @@
 
 ## About the Project
 
-| ![Pedal Manager](https://github.com/fabemit/PedalManager_OS/blob/main/Images/fabOS-home.png) |
+| ![Pedal Manager](https://github.com/thisoldscot/PedalManager_OS/blob/main/Images/fabOS-home.png) |
 | :--------------------------------------------------------------------------------------------: |
 
 Pedal Manager is the desktop companion for the custom sim-racing pedal project. It
@@ -32,7 +32,7 @@ per-pedal settings (throttle, brake, clutch) over a serial connection.
 ### Installation
 
 ```bash
-git clone https://github.com/fabemit/PedalManager_OS.git
+git clone https://github.com/thisoldscot/PedalManager_OS.git
 cd PedalManager_OS
 pip install -r requirements.txt
 ```
@@ -92,7 +92,7 @@ We encourage community collaboration to make this project even better.
 
 ## About ThisOldScot
 
-<img src="https://github.com/fabemit/PedalManager_OS/blob/main/Images/ThisOldScot_Logo.png" width="200" alt="ThisOldScot logo">
+<img src="https://github.com/thisoldscot/PedalManager_OS/blob/main/Images/ThisOldScot_Logo.png" width="200" alt="ThisOldScot logo">
 
 [ThisOldScot](https://thisoldscot.com) enjoys designing and making electronic
 products and projects for enthusiasts, from hobbyists to professionals — boards,
