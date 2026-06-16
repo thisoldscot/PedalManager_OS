@@ -429,7 +429,7 @@ class PedalApp:
         self.notebook.pack(fill="both", expand=True, padx=20, pady=(10, 20))
 
         self.about_frame = self.create_about_tab()
-        self.notebook.add(self.about_frame, text=" fabPedals ")
+        self.notebook.add(self.about_frame, text=" Sim Pedals ")
 
         self.throttle_frame = self.create_pedal_tab("Throttle", "T")
         self.notebook.add(self.throttle_frame, text=" Throttle ")
@@ -702,7 +702,7 @@ class PedalApp:
         img_frame = ttk.Frame(tab, style="Card.TFrame")
         img_frame.pack(fill="x", pady=(0, 30))
         try:
-            image_path = resource_path("fabPedal.png")
+            image_path = resource_path("Sim_Pedals.png")
             if HAS_PILLOW:
                 pil_img = Image.open(image_path)
                 MAX_HEIGHT = 300
@@ -722,7 +722,7 @@ class PedalApp:
             placeholder_fg = "#aaaaaa" if self.is_dark_mode else "#888888"
             placeholder = tk.Canvas(img_frame, height=300, bg=placeholder_bg, highlightthickness=0)
             placeholder.pack(fill="x")
-            placeholder.create_text(350, 150, text="[ fabPedal.png ]", fill=placeholder_fg, font=(self.FONT_FAMILY, 14, "bold"))
+            placeholder.create_text(350, 150, text="[ Sim_Pedals.png ]", fill=placeholder_fg, font=(self.FONT_FAMILY, 14, "bold"))
 
         links_frame = ttk.LabelFrame(tab, text="Follow the Project", style="Card.TLabelframe", padding=20)
         links_frame.pack(fill="x", pady=10)
@@ -744,7 +744,7 @@ class PedalApp:
         add_link(links_frame, "IG", "#E1306C", "Instagram (@thisoldscot)", "https://www.instagram.com/thisoldscot")
         add_link(links_frame, "TT", "#000000", "TikTok (@thisoldscot)", "https://www.tiktok.com/@thisoldscot")
         add_link(links_frame, "YT", "#FF0000", "YouTube Channel", "https://www.youtube.com/@thisoldscot")
-        add_link(links_frame, "GIT", "#6e5494", "GitHub Repository", "https://github.com/thisoldscot/fabPedals")
+        add_link(links_frame, "GIT", "#6e5494", "GitHub Repository", "https://github.com/thisoldscot/Sim_Pedals")
 
         footer = tk.Frame(tab, bg=self.CARD_BG)
         footer.pack(fill="x", pady=40)

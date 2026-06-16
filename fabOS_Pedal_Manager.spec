@@ -5,7 +5,7 @@ a = Analysis(
     ['fabOS_Pedal_Manager.py'],
     pathex=[],
     binaries=[],
-    datas=[('fabPedal.png', '.')],
+    datas=[('Sim_Pedals.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

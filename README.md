@@ -51,7 +51,7 @@ This repository is organised as follows:
 
 - **`fabOS_Pedal_Manager.py`** — application entry point.
 - **`pedal_settings.json`** — saved pedal configuration.
-- **`fab.ico` / `fabPedal.png`** — application icon and image.
+- **`fab.ico` / `Sim_Pedals.png`** — application icon and image.
 - **`*.spec`** — PyInstaller build specs (build output is gitignored).
 
 Refer to the `CHANGELOG.md` for details about updates between versions.
