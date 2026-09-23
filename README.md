@@ -52,7 +52,11 @@ This repository is organised as follows:
 - **`PedalManager_OS.py`** — application entry point.
 - **`pedal_settings.json`** — saved pedal configuration.
 - **`PedalManager_OS.ico` / `Sim_Pedals.png`** — application icon and image.
-- **`*.spec`** — PyInstaller build specs (build output is gitignored).
+
+The Windows executable is built by **Project Builder**
+(`01_Projects/Project_Builder`), the single build tool for every
+application in the portfolio. This repo carries no build script of its
+own.
 
 Refer to the `CHANGELOG.md` for details about updates between versions.
 
